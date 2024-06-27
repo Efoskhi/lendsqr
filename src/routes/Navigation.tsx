@@ -23,8 +23,8 @@ const Navigation : React.FC = () => {
             <div className="navigationContent">
                 {!isLoginRoute && <Sidebar/>}
                 <Routes>
-                    <Route path="/" element={<Dashboard/>} />
                     <Route path="/login" element={<Login/>} />
+                    <Route path="/" element={<Dashboard/>} />
                     <Route path="/users" element={<Users/>} />
                     <Route path="/user-details/:username" element={<UserDetails/>} />
                     {/* <Route path="/cart" element={<Cart/>} />
