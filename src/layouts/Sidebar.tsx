@@ -1,6 +1,6 @@
 import React from "react";
 import { IonIcon } from "@ionic/react";
-import { briefcase, person, caretDown } from 'ionicons/icons';
+import { briefcase, caretDown } from 'ionicons/icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useNavigate, useLocation } from "react-router-dom"
 
@@ -12,7 +12,7 @@ const Sidebar : React.FC = () => {
     const navigate = useNavigate();
     const location = useLocation();
     const pathName = location.pathname;
-    const { isSidebarVisible, setIsSidebarVisible } = React.useContext(AppContext);
+    const { isSidebarVisible } = React.useContext(AppContext);
 
     
     return(

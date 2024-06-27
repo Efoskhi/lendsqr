@@ -8,7 +8,7 @@ import Filter from "../components/Filter.tsx";
 import Pagination from "../components/Pagination.tsx";
 
 const Users : React.FC = () => {
-    const { isLoading, totalUsers, tooltipData, tooltipPosition, tooltipVisible, filterPosition, filterVisible, filterRef, totalPages, currentUsers, currentPage, usersPerPage, setUsersPerPage, handleMouseEnterTooltip, handleMouseLeaveTooltip, handleMouseEnter, handleMouseLeave, handleToggleFilter, paginate } = useUsers();
+    const { isLoading, totalUsers, tooltipData, tooltipPosition, tooltipVisible, filterPosition, filterVisible, filterRef, totalPages, currentUsers, currentPage, setUsersPerPage, handleMouseEnterTooltip, handleMouseLeaveTooltip, handleMouseEnter, handleMouseLeave, handleToggleFilter, paginate } = useUsers();
 
     return (
         <div className="usersWrapper">

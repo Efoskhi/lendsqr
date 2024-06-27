@@ -1,7 +1,4 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import * as solidIcon from '@fortawesome/free-solid-svg-icons';
-import { useNavigate } from "react-router-dom";
 import '../styles/Filter.scss';
 
 interface FilterProps {
@@ -11,8 +8,6 @@ interface FilterProps {
 
 const Filter = React.forwardRef<HTMLDivElement, FilterProps>(({ visible, position }, ref) => {
     
-    const navigate = useNavigate();
-
     return (
         <div
             ref= { ref }

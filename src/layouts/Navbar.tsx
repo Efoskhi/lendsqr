@@ -11,16 +11,16 @@ const Navbar : React.FC = () => {
     
     return(
         <div className="navbarWrapper">
-            <img src={logo} className="logo"/>
+            <img src={logo} className="logo" alt="logo"/>
             <div className="searchWrapper">
                 <input />
                 <IonIcon icon={ search } className="searchIcon"/>
             </div>
 
             <div className="content">
-                <a href="#">Docs</a>
+                <a href="/users">Docs</a>
                 <IonIcon icon={ notificationsOutline } className="icon notificationIcon"/>
-                <img src={avatar} className="avatar"/>
+                <img src={avatar} className="avatar" alt="avatar"/>
                 <p className="name">Adedeji <IonIcon icon={ caretDown } className="icon"/></p>
                 <IonIcon icon={ apps } className="icon bars" onClick={() => setIsSidebarVisible(!isSidebarVisible)}/>
             </div>
