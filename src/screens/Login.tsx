@@ -24,7 +24,7 @@ const Login : React.FC = () => {
                         <label onClick={ handleTogglePassword }>SHOW</label>
                     </div>
 
-                    <a href="#">FORGOT PASSWORD?</a>
+                    <a href="/">FORGOT PASSWORD?</a>
                     <button onClick={ handleLogin }>LOG IN</button>
                 </div>
             </div>
