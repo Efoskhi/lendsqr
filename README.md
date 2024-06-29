@@ -23,7 +23,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## `Approaches Taken`
 
-1. Component-Based Architecture**:
+1. Component-Based Architecture:
    - **Reason**: React promotes a component-based architecture, which allows for reusable, maintainable, and testable code. This approach helps in organizing the project into smaller, manageable pieces.
    - **Approach**: I created reusable components like Navbar, Sidebar, Login, and User, which can be independently developed and tested.
 
